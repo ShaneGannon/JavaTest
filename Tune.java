@@ -12,24 +12,12 @@ public class Tune{
 	private String notation;
 
 	//create the public accessors
-	public int getx()
+	public fields(int x, String title, String alttitle, string notation)
 	{
-		return x;
-	}
-	
-	public String gettitle()
-	{
-		return title;
-	}
-	
-	public String getalttitle()
-	{
-		return alttitle;
-	}
-	
-	public String getnotation()
-	{
-		return notation;
+		this.x = x;
+		this.title = title;
+		this.alttitle = alttitle;
+		this.notation = notation;
 	}
 	
 	//create toString method
