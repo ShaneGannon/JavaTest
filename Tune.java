@@ -1,6 +1,6 @@
 package ie.dit;
 
-Public class Tune {
+public class Tune{
 
 	//create the private fields
 	private int x;
@@ -29,4 +29,19 @@ Public class Tune {
 	{
 		return notation;
 	}
+	
+	//create toString method
+	public String toString()
+	{
+		if(alttitle != null)
+		{
+			return "(" + x + ", " + title + ", " + alttitle + "\n)";
+		}
+		
+		else
+		{
+			return"(" + x + ", " + title + "\n)";
+		}
+	}
+	
 }
